@@ -1,0 +1,110 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.page_body {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.container {
+    /* border: 1px solid black; */
+}
+
+.row-head {
+    height: 50px;
+    padding: 20px;
+    color: black;
+    font-size: 1.4em;
+
+}
+
+.row-body {
+    height: 50px;
+    padding: 20px;
+}
+
+.notify_img img {
+    border-radius: 50%;
+}
+
+.notify_img span {
+    font-size: 1.3em;
+    color: blue;
+    margin-left: 15px;
+}
+
+.col-sm {
+    margin-top: -20px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: static;
+}
+
+.add_permission {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: none;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+
+
+.csrd1 {
+    margin: 150px 0px 0px 550px;
+    padding: 30px;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+.p-table {
+
+    width: 300px;
+    height: 100px;
+
+}
+
+.row {
+    gap: 5%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.head h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+table {
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+#close {
+    margin-top: -10px;
+    float: right;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.fa-circle-xmark:hover {
+    color: red;
+}

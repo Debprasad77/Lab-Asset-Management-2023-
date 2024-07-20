@@ -1,0 +1,149 @@
+/* body{
+    margin: 0;
+    padding: 0;
+
+} */
+.page_body {
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+table {
+margin-top: 20px;
+
+    border-collapse: collapse;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    border: 1px solid #2e4555;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .table_section input[type="button"] {
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    background-color: #1d9fb9;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    width: 155px;
+    height: 50px;
+} */
+/* .table_section input[type="button"]:hover{
+    background-color: #20b4d1;
+    cursor: pointer;
+} */
+.page_body input[type="button"] {
+    cursor: pointer;
+    float: right;
+    background-color: #1d9fb9;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+.page_body input[type="button"]:hover{
+    background-color: #20b4d1;
+    cursor: pointer;
+}
+
+
+tr {
+    transition: all .2s ease-in;
+    /* cursor: pointer; */
+}
+
+th {
+    color: white;
+    background-color: #2e4555;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid rgb(136, 125, 125);
+    border-right: 2px solid rgb(124, 114, 114);
+    border-radius: 2px;
+
+}
+
+h1 {
+    font-weight: 600;
+    text-align: right;
+    background-color: #2d72c2;
+    color: #fff;
+    padding: 8px 0px;
+}
+
+h1 a {
+    margin-right: 17px;
+    color: #d5dceb;
+}
+
+/* .hov:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+} */
+
+/* @media only screen and (max-width: 768px) {
+    table {
+        width: 50%;
+    }
+} */
+
+table tr td img {
+    width: 50px;
+}
+
+table a i {
+    color: forestgreen;
+    font-size: 2.3em;
+}
+
+.table_section {
+    margin-left: 20%;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+#heading {
+    margin-left: 600px;
+    font-size: 1.1em;
+    color: rgb(243, 132, 132);
+
+}
+/* _Kalyan */
+
+.fa-trash{
+    font-size: 1.65em;
+    color: rgb(211, 58, 58);
+}
+
+td{
+    cursor: pointer;
+}
+td #del_img:hover {
+    transform: translateY(-5px);
+}
+
+.good{
+    color: rgb(103, 205, 0);
+    font-size: 1.65em;
+}
+.bad{
+    color: rgb(240, 204, 0);
+    font-size: 1.65em;
+}
+
+.good:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}

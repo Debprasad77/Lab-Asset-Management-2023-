@@ -1,0 +1,56 @@
+.csrd1 {
+    background-color: rgb(255, 233, 200);
+    margin: 150px 0px 0px 550px;
+    height: 300px;
+    width: 350px;
+    padding: 32px;
+    border-radius: 17px;
+    box-shadow: rgba(255, 167, 167, 0.56) 0px 1px 10px 1px;
+
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  
+
+.row {
+    gap: 5%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.head h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+

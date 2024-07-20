@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New_Password</title>
+    <link rel="stylesheet" href="../Css/forget3.css">
+</head>
+<body>
+    <div class="sign-up-form">
+        <div class="img">
+        <img src="../Img/imgg.png" alt="">
+        </div>
+        <h1>Create new password</h1>
+        <p id="hey">Hey, Write your new password carefully</p>
+        <form action="../php/_newpassword.php" method="POST">
+            <input type="password" name="pass" class="input-box" placeholder="New password">
+            <input type="password" class="input-box" placeholder="Confirm new password">
+            <!-- <p id="agree"><span><input type="checkbox" class="check"></span> Agree to the Terms of services</p> -->
+            <a><button type="submit" class="send-btn">Create</button></a>
+            <p class="contact">Having trouble? feel free to <a href="#">Contact Us</a></p>
+            <p class="contact">Didn't request a password? You can ignore this message</p>
+        </form>
+    </div>
+</body>
+</html>

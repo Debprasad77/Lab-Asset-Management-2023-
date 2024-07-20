@@ -1,0 +1,147 @@
+
+.form_center #close{
+    margin-top: 17px;
+    margin-right: -10px;
+}
+
+.form-group input{
+    float: right;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.btn {
+    width: 30%;
+    margin-top: 40px;
+    background-color: #806bcd;
+    font-size: 1.7em;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* ,mcglbnlb */
+
+.form_section{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+#add_form{
+    margin-top: 24px;
+}
+
+
+.form_center{
+    padding: 10px 20px 20px 20px;
+    width: 530px;
+    height: 300px;
+    background-color:white;
+    opacity: 1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* .form-group input{
+    float: right;
+    width: 47%;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 8px;
+    text-align: center;
+} */
+.form-group input::placeholder{
+    color: black;
+    opacity: 0.5;
+}
+
+#Add_btn{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #806bcd;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.fa-regular{
+    margin-top: -20px;
+    font-size: 1.7em;
+    float: right;
+}
+
+
+.fa-regular:hover{
+    color: rgb(205, 40, 3);
+    transform: rotate(30deg);
+
+}
+
+/* Kalyan */
+
+input[type=file]:hover + #show {
+    /* background-color: pink; */
+    display: block;
+}
+#show{
+    display: none;
+    font-size: 12.5px;
+}
+
+
+.form-group{
+    /* background-color: rgba(0, 0, 255, 0.479); */
+    height: 70px;
+    margin: 2px;
+    padding: 6px;
+
+}
+.form-group label{
+    margin-top: 20px;
+    float: left;
+    font-size: 1.0em;
+    font-weight: bolder;
+}
+/* .btn {
+    width: 30%;
+    background-color: #806bcd;
+    font-size: 1.7em;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+} */
+#file_err{
+    color: red;
+    display: inline;
+    margin-top: 10px;
+}

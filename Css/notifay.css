@@ -1,0 +1,52 @@
+.popup_form {
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	margin-left: -200px;
+	margin-top: 30px;
+
+}
+
+.show {
+	display: flex;
+}
+
+.popup_form .dropdown {
+	float: left;
+	width: 300px;
+	height: auto;
+	background: #236ca3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.125);
+	padding: 15px;
+	/* position: relative; */
+}
+
+.popup_form .dropdown .notify_item {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #dbdaff;
+}
+
+/*  */
+
+.popup_form .dropdown .notify_item .notify_img {
+	margin-right: 15px;
+}
+
+.popup_form .dropdown .notify_item .notify_info p {
+	margin-bottom: 5px;
+	color: white;
+}
+
+
+.popup_form .dropdown .notify_item .notify_info .notify_time {
+	color: #c5c5e6;
+	font-size: 12px;
+}
+
+
+.popup_form .dropdown.active {
+	display: block;
+}
